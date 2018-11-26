@@ -1,363 +1,170 @@
-# Configuration of Academic
-# Documentation: https://sourcethemes.com/academic/
-#
-# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
-# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
-
-# The URL of your website.
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
-
-# Title of your site
+baseurl = "https://example.org"
 title = "Cloudmesh Community"
-
-# Your copyright notice - appears in site footer.
-# To display a copyright symbol, type `&copy;`.
-copyright = "&copy; Gregor von Laszewski, 2018"
-
-theme = "academic"
-enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-preserveTaxonomyNames = true
-paginate = 10
-
+theme = "hugo-universal-theme"
+themesDir = "./themes"
+languageCode = "en-us"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
-
-# Enable analytics by entering your Google Analytics tracking ID
+disqusShortname = "devcows"
+# Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
-# Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
-defaultContentLanguageInSubdir = false
+# Define the number of posts per page
+paginate = 10
 
-# Get last modified date for content from Git?
-enableGitInfo = false
+[menu]
 
-[outputs]
-  home = [ "HTML", "CSS", "RSS", "JSON" ]
-  section = [ "HTML", "RSS" ]
+# Main menu
 
-# Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
-[blackfriday]
-  hrefTargetBlank = true  # `true` opens external links in a new tab.
-  fractions = true  # `false` disables smart fractions (e.g. 5/12 formatted as a fraction).
-  smartypants = true  # `false` disables all smart punctuation substitutions (e.g. smart quotes, dashes, fractions).
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Blog"
+    url  = "/blog/"
+    weight = 2
+
+[[menu.main]]
+    name = "FAQ"
+    identifier = "faq"
+    url  = "/faq/"
+    weight = 3
+
+[[menu.main]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 4
+
+# Top bar social links menu
+
+[[menu.topbar]]
+    weight = 1
+    name = "GitHub"
+    url = "https://github.com/devcows/hugo-universal-theme"
+    pre = "<i class='fa fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "Facebook"
+    url = "http://facebook.com"
+    pre = "<i class='fa fa-2x fa-facebook'></i>"
+
+[[menu.topbar]]
+    weight = 3
+    name = "Twitter"
+    url = "http://twitter.com"
+    pre = "<i class='fa fa-2x fa-twitter'></i>"
+
+[[menu.topbar]]
+    weight = 4
+    name = "Email"
+    url = "mailto:your@email.com"
+    pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
-  # AUTHOR SETUP
+    viewMorePostLink = "/blog/"
+    author = "DevCows"
+    defaultKeywords = ["devows", "hugo", "go"]
+    defaultDescription = "Site template made by devcows using hugo"
 
-  # Your details.
-  name = "Gregor von Laszewski"
-  role = "Intelligent Systems Engineering Department"
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
-  # Organizations/Affiliations.
-  #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Indiana University", url = "" } ]
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "default"
 
-  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "your@email.com"
 
-  # Details for the Contact Widget
-  email = "laszewski@gmail.com"
-  address = "Gregor von Laszewski, Ph.D.\nGregor  von Laszewski\nAssistant Director, Digital Science Center\nAdjunct Professor for Intelligent Systems Engineering\nIndiana University, School of Informatics, Computing and Engineering\nSmith Research Center\n2805 E 10th St, Bloomington, IN 47408"
-  office_hours = "Monday 6:30PM - 8:30PM"
-  phone = "(812) 856 1311"
-  #skype = "echo123"
-  #telegram = ""
-  #keybase = ""  # Your keybase.io username.
+    about_us = "<p>Cloudmesh is a multi cloud toolkit for virtualmachines, containers, and Funtion as a Service.</p>"
+    copyright = "Copyright (c) 2018, Gregor von Laszewski, Indiana University."
 
-  # Discussion link (e.g. link to a forum, mailing list, or chat).
-  #   Uncomment line below to use.
-  #   discussion = { name = "Discuss", url = "https://discourse.gohugo.io" }
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
 
-  # Enable/disable map in Contact widget.
-  # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
-  # a map provider below.
-  # To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
-  #   https://developers.google.com/maps/documentation/javascript/get-api-key
-  # To use OpenStreetMap tiles, set `map = 2`.
-  # To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
-  #   https://www.mapbox.com/studio/account/tokens
-  # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-  #
-  # Map provider:
-  #   0: No map
-  #   1: Google Maps
-  #   2: OpenStreetMap (Mapnik)
-  #   3: OpenStreetMap (Mapbox)
-  map = 0
-  map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
-  zoom = 15
+    logo = "img/logo.png"
+    logo_small = "img/logo-small.png"
+    address = """<p><strong>Gregor von Laszewski</strong>
+        <br>2805 E. 10th Street
+        <br>Bloomington, IN 4708 
+        <br>U.S.A.
+        <br>
+        <br>laszewski@gmail.com
+      </p>
+      """
+    latitude = "-12.043333"
+    longitude = "-77.028333"
 
-  # SITE SETUP
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
 
-  # Color theme.
-  #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-  color_theme = "cloudmesh"
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = true
+    text = """<p class="hidden-sm hidden-xs">Contact us by sending e-mail to laszewski@gmail.com</p>
+      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
+      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+      </p>
+      """
 
-  # Font style.
-  #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
 
-  # Description for social sharing and search engines. If undefined, author role is used in place.
-  description = "Home page of Gregor von Laszewski"
+[params.carousel]
+    enable = true
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
 
-  # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-  sharing_image = ""
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
 
-  # Twitter username (without @). Used when a vistor shares your site on Twitter.
-  # twitter = ""
+[params.testimonials]
+    enable = true
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
-  # Diplay a logo in navigation bar rather than title (optional).
-  #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-  logo = ""
+[params.see_more]
+    enable = true
+    icon = "fa fa-file-code-o"
+    title = "Do you want to see more?"
+    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    link_url = "#"
+    link_text = "Check other homepages"
 
-  # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
-  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "Jan 2, 2006"
-  #   Examples: "3:04 pm" or "15:04"
-  time_format = "3:04 PM"
+[params.clients]
+    enable = true
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more informtion take a look at the README.
+    title = "Our Clients"
+    subtitle = ""
 
-  # Show estimated reading time for posts?
-  reading_time = true
-
-  # Display comment count? Requires commenting to be enabled.
-  comment_count = true
-
-  # Display next/previous section pager?
-  section_pager = false
-
-  # Enable global LaTeX math rendering?
-  #   If false, you can enable it locally on a per page basis.
-  math = false
-
-  # Highlight.js options
-  #   highlight
-  #     Enable global source code highlighting?  If false, you can
-  #     override it for a particular page in that page's preamble.
-  #
-  #     Example: highlight = true
-  #
-  #   highlight_languages
-  #     Add support for highlighting additional languages. Support for
-  #     languages mentioned here will be included in all pages.
-  #
-  #     Example: highlight_languages = ["go", "lisp", "ocaml"]
-  #
-  #   highlight_style
-  #     Choose a different CSS style for highlighting source
-  #     code. Setting this option in a page's preamble has no
-  #     effect.
-  #
-  #     Example: highlight_style = "github-gist"
-  #
-  #   For the list of supported languages and styles, see:
-  #   https://cdnjs.com/libraries/highlight.js/
-  #
-  #   For more info on the highlighting options, see:
-  #   https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
-  highlight = true
-  highlight_languages = []
-  # highlight_style = "github"
-
-  # Enable native social sharing buttons?
-  sharing = true
-
-  # Privacy pack
-  #   Show a cookie consent message to visitors
-  #   Anonymize IP in Google Analytics (if enabled)
-  privacy_pack = false
-
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  custom_css = []
-  custom_js  = []
-
-  # Publication types.
-  #   Used to categorize publications.
-  #   The index of the publication type in the list is used as its unique numerical identifier.
-  #   The numeric ID is used in a publication's frontmatter to categorize it.
-  #   The language can be edited below.
-  #   For multilingual sites, `publication_types` can be copied to each language section at the end of this file and
-  #   translated.
-  publication_types = [
-    'Uncategorized',  # 0
-    'Conference paper',  # 1
-    'Journal article',  # 2
-    'Manuscript',  # 3
-    'Report',  # 4
-    'Book',  # 5
-    'Book section'  # 6
-  ]
-
-  # Configuration of talk pages.
-  [params.talks]
-    # Show talk time?
-    time = true
-
-  # Configuration of publication pages.
-  [params.publications]
-    # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
-    #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-    date_format = "January, 2006"
-
-  # Configuration of project pages.
-  [params.projects]
-    # List publications and talks related to the project?
-    list_children = true
-
-    # Post list format.
-    #   0 = Simple
-    #   1 = Detailed
-    #   2 = Stream
-    post_format = 2
-
-    # Publication list format.
-    #   0 = Simple
-    #   1 = Detailed
-    #   2 = APA
-    #   3 = MLA
-    #   4 = Stream
-    publication_format = 4
-
-    # Talk list format.
-    #   0 = Simple
-    #   1 = Detailed
-    #   2 = Stream
-    talk_format = 2
-
-  # Social/Academic Networking
-  #
-  # Icon pack "fab" includes the following social network icons:
-  #
-  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
-  #   youtube, instagram, soundcloud
-  #
-  #   For email icon, use "fas" icon pack, "envelope" icon, and
-  #   "mailto:your@email.com" as the link.
-  #
-  #   Full list: https://fontawesome.com/icons
-  #
-  # Icon pack "ai" includes the following academic icons:
-  #
-  #   cv, google-scholar, arxiv, orcid, researchgate, mendeley
-  #
-  #   Full list: https://jpswalsh.github.io/academicons/
-
-  [[params.social]]
-    icon = "envelope"
-    icon_pack = "fas"
-    link = "#contact"  # For a direct email link, use "mailto:test@example.org".
-
-  # [[params.social]]
-  #   icon = "twitter"
-  #   icon_pack = "fab"
-  #   link = "https://twitter.com/GeorgeCushen"
-
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
-
-  [[params.social]]
-    icon = "github"
-    icon_pack = "fab"
-    link = "https://github.com/laszewsk"
-
-  # Link to a PDF of your resume/CV from the About widget.
-  # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # [[params.social]]
-  #   icon = "cv"
-  #   icon_pack = "ai"
-  #   link = "files/cv.pdf"
-
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
-[params.menus]
-  # Align the main menu to the right of the page? (true/false)
-  align_right = true
-
-[[menu.main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
-
-[[menu.main]]
-  name = "Proceedings"
-  url = "#proceedings"
-  weight = 2
-
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 3
-
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 4
-
-[[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 5
-
-[[menu.main]]
-  name = "Software"
-  url = "#software"
-  weight = 6
-
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 8
-
-# Search.
-[params.search]
-  # Search provider:
-  #   0: No search engine
-  #   1: Built-in (Fuse)
-  #   2: Algolia (https://www.algolia.com)
-  engine = 1
-
-  # Configuration of Algolia search engine.
-  # Paste the values from your Algolia dashboard.
-  [params.search.algolia]
-    app_id = ""
-    api_key = ""
-    index_name = ""
-    show_logo = false
-
-# Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
-
-# Languages
-#   Create a [languages.X] block for each language you want, where X is the language ID.
-#   Refer to https://sourcethemes.com/academic/docs/language/
-
-# Configure the English version of the website.
-[languages.en]
-  languageCode = "en-us"
-
-# Uncomment the lines below to configure your website in a second language.
-#[languages.zh]
-#  languageCode = "zh-Hans"
-#  title = "Chinese website title..."
-#  [languages.zh.params]
-#    name = "Your name in Chinese..."
-#    role = "Your role in Chinese..."
-#  [[languages.zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
