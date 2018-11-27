@@ -1,17 +1,19 @@
 +++
-# Custom widget.
-# An example of using the custom widget to create your own homepage section.
-# To create more sections, duplicate this file and edit the values below as desired.
-widget = "custom"
+# Hero widget.
+widget = "hero"
 active = true
-date = 2016-04-20T00:00:00
+date = 2017-10-15T00:00:00
 
-# Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "About"
-subtitle = ""
+title = "Cloudmesh Community"
 
 # Order that this section will appear in.
-weight = 1
+weight = 3
+
+# Overlay a color or image (optional).
+#   Deactivate an option by commenting out the line, prefixing it with `#`.
+[header]
+  overlay_color = "#aaa"  # An HTML color value.
+  overlay_filter = 0.1  # Darken the image. Value in range 0-1.
 
 +++
 

@@ -45,25 +45,32 @@ url_poster = ""
   focal_point = ""
 +++
 
-Virtual cluster on Comet is a project to provide a virtual cluster to HPC users on
-Comet resources in on-demand fashion [1]. This marries the cloud computing usage scenario
-and the traditional HPC resources. On one hand, it provides a fully user-controlled
-cluster with totally customizable OS and software and service stacks; on another hand,
-this is built on top of HPC environment so users get a close-to-baremetal experience
-with regards to the performance.
+Virtual cluster on Comet is a project to provide a virtual cluster to
+HPC users on Comet resources in on-demand fashion [1]. This marries
+the cloud computing usage scenario and the traditional HPC
+resources. On one hand, it provides a fully user-controlled cluster
+with totally customizable OS and software and service stacks; on
+another hand, this is built on top of HPC environment so users get a
+close-to-baremetal experience with regards to the performance.
 
-The projects consists of a set of backend configuration scripts; a comet nucleus API;
-and a client side tool - cloudmesh comet - to enable users' interaction with the system.
+The projects consists of a set of backend configuration scripts; a
+comet nucleus API; and a client side tool - cloudmesh comet - to
+enable users' interaction with the system.
 
-Since the inception of the project, we had ~15 different groups that used this feature.
+Since the inception of the project, we had ~15 different groups that
+used this feature.
 
-We are also working on providing a templated environment for dbGaP researchers, in which
-we provide customized configurations on top of preset dgGaP images, based on the common
-Comet VC feature, to provide dbGaP researchers a computing environemnt that meets
-the usage guidance of dbGaP data [2].
+We are also working on providing a templated environment for dbGaP
+researchers, in which we provide customized configurations on top of
+preset dgGaP images, based on the common Comet VC feature, to provide
+dbGaP researchers a computing environemnt that meets the usage
+guidance of dbGaP data [2].
 
-Refs:
-[1] Rick Wagner, Philip Papadopoulos, Dmitry Mishin, Trevor Cooper, Mahidhar Tatineti, Gregor von Laszewski,
-Fugang Wang, and Geoffrey C. Fox. 2016. User Managed Virtual Clusters in Comet. In Proceedings of the
-XSEDE16 Conference on Diversity, Big Data, and Science at Scale (XSEDE16). ACM, New York, NY, USA
-[2] https://osp.od.nih.gov/scientific-sharing/genomic-data-sharing/
+## References
+
+1. Rick Wagner, Philip Papadopoulos, Dmitry Mishin, Trevor Cooper,
+   Mahidhar Tatineti, Gregor von Laszewski, Fugang Wang, and Geoffrey
+   C. Fox. 2016. **User Managed Virtual Clusters in Comet**. In
+   Proceedings of the XSEDE16 Conference on Diversity, Big Data, and
+   Science at Scale (XSEDE16). ACM, New York, NY, USA
+2.  https://osp.od.nih.gov/scientific-sharing/genomic-data-sharing/
