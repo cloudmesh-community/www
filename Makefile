@@ -54,6 +54,7 @@ bib: bibclean get-bib
 	sed -e 's/dec #/{December} #/g' > fa18-tmp.bib 
 	academic import --overwrite --bibtex fa18-tmp.bib
 	hugo
+	cat fa18.bib
 
 
 
