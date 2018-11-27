@@ -26,7 +26,7 @@ bibclean:
 	cp /tmp/_index.md content/publication/_index.md
 
 bib: bibclean get-bib
-	cat test.bib fa18.bib  | \
+	cat proceedings.bib fa18.bib  | \
 	bibtool -s -r iso2tex -- print.line.length=1000 | \
 	sed -e 's/jan,/{January},/g' | \
 	sed -e 's/feb,/{February},/g' | \
@@ -54,7 +54,7 @@ bib: bibclean get-bib
 	sed -e 's/dec #/{December} #/g' > fa18-tmp.bib 
 	academic import --overwrite --bibtex fa18-tmp.bib
 	hugo
-	cat fa18.bib
+#	cat fa18.bib
 
 
 

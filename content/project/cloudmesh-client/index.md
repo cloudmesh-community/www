@@ -1,14 +1,14 @@
 +++
-title = "Cloudmesh 4"
-date = 2018-11-24T01:41:13-05:00
+title = "Cloudmesh Client"
+date = 2018-11-24T01:41:03-05:00
 draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = []
+tags = ["Software", "Cloudmesh"]
 
 # Project summary to display on homepage.
-summary = ""
+summary = "OpenStack"
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
@@ -38,7 +38,7 @@ url_poster = ""
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = ""
+  caption = "Image caption"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
