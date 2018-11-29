@@ -5,10 +5,10 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = []
+tags = ["Raspberry"]
 
 # Project summary to display on homepage.
-summary = ""
+summary = "A program to burn a fully operational abd configured image on an SD card for Raspberry PI clusters."
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
@@ -42,7 +42,7 @@ url_poster = ""
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  focal_point = "Center"
 +++
 
 `cm-burn` is a program to burn many SD cards for the preparation of

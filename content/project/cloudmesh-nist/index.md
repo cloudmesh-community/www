@@ -5,10 +5,10 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Nist"]
+tags = ["Nist", "REST"]
 
 # Project summary to display on homepage.
-summary = "Big Data REST INterfaces to build generalized Big Data Architectures"
+summary = "Big Data REST INterfaces to build generalized Big Data Architectures."
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
