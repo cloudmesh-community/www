@@ -14,7 +14,8 @@ deploy:
 # GET-bib:
 #	wget https://raw.githubusercontent.com/cyberaide/bib/master/vonLaszewski-jabref.bib
 
-
+server:
+	hugo server -D
 
 get-bib:
 	cd ../proceedings-fa18; python bib.py > ../www/fa18.bib
