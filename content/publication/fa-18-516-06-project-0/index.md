@@ -1,5 +1,5 @@
 +++
-title = "Paper: Creating a RESTful API Service Using MongoDB and Azure SQL Database"
+title = "Project: Creating a RESTful API Service Using MongoDB and Azure SQL Database"
 date = 2018-11-01
 authors = ["Paul Filliman"]
 publication_types = ["6"]

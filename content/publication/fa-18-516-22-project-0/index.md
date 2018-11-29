@@ -1,5 +1,5 @@
 +++
-title = "Paper: Running a Jupyter Notebook Analysis on AWS EMR Utilizing a REST Service"
+title = "Project: Running a Jupyter Notebook Analysis on AWS EMR Utilizing a REST Service"
 date = 2018-11-01
 authors = ["Ian Sims"]
 publication_types = ["6"]

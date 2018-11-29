@@ -1,5 +1,5 @@
 +++
-title = "Paper: HySDS on Kubernetes: ARIA InSAR Processing on XSEDE Jetstream"
+title = "Project: HySDS on Kubernetes: ARIA InSAR Processing on XSEDE Jetstream"
 date = 2018-11-01
 authors = ["Gerald Manipon"]
 publication_types = ["6"]

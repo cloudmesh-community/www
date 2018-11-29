@@ -1,5 +1,5 @@
 +++
-title = "Paper: Image Classification using k-means on TensorFlow"
+title = "Project: Image Classification using k-means on TensorFlow"
 date = 2018-11-01
 authors = ["Selahattin Akkas"]
 publication_types = ["6"]

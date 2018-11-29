@@ -1,5 +1,5 @@
 +++
-title = "Paper: Credit Card Defaulter Analysis"
+title = "Project: Credit Card Defaulter Analysis"
 date = 2018-11-01
 authors = ["Uma Bhargavi Kota", "Jatinkumar Bhutka"]
 publication_types = ["6"]

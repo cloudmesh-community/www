@@ -1,5 +1,5 @@
 +++
-title = "Paper: Raspberry Pi Cassandra Cluster"
+title = "Project: Raspberry Pi Cassandra Cluster"
 date = 2018-11-01
 authors = ["Adam Hilgenkamp"]
 publication_types = ["6"]

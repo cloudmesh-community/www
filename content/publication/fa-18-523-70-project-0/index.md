@@ -1,5 +1,5 @@
 +++
-title = "Paper: Big Data Applications in recommender systems"
+title = "Project: Big Data Applications in recommender systems"
 date = 2018-11-01
 authors = ["Sushmita Dash"]
 publication_types = ["6"]

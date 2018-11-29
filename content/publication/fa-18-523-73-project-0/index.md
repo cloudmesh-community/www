@@ -1,5 +1,5 @@
 +++
-title = "Paper: Big data in education"
+title = "Project: Big data in education"
 date = 2018-11-01
 authors = ["Wang Tong", "Yeyi Ma"]
 publication_types = ["6"]

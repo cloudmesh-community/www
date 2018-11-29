@@ -1,5 +1,5 @@
 +++
-title = "Paper: Data analysis Of Yelp reviews"
+title = "Project: Data analysis Of Yelp reviews"
 date = 2018-11-01
 authors = ["Prajakta Patil", "Sahithya Sridhar"]
 publication_types = ["6"]

@@ -1,5 +1,5 @@
 +++
-title = "Paper: A Cloud Computing Approach to Financial Decision Automation"
+title = "Project: A Cloud Computing Approach to Financial Decision Automation"
 date = 2018-11-01
 authors = ["Mark Miller"]
 publication_types = ["6"]

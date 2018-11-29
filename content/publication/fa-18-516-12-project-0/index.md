@@ -1,5 +1,5 @@
 +++
-title = "Paper: cm4"
+title = "Project: cm4"
 date = 2018-11-01
 authors = ["Yu Luo"]
 publication_types = ["6"]

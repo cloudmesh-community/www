@@ -1,5 +1,5 @@
 +++
-title = "Paper: Morphological Image-based Profiling of Cells for Scientific Community"
+title = "Project: Morphological Image-based Profiling of Cells for Scientific Community"
 date = 2018-11-01
 authors = ["Anna Heine"]
 publication_types = ["6"]

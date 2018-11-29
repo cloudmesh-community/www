@@ -1,5 +1,5 @@
 +++
-title = "Paper: None"
+title = "Project: None"
 date = 2018-11-01
 authors = ["John Leite"]
 publication_types = ["6"]

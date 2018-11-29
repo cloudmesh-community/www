@@ -4,7 +4,8 @@ deploy:
 	rm -rf public
 	@echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 	hugo 
-	cp -r public/ ../cloudmesh-community.github.io
+#	cp -r public/ ../cloudmesh-community.github.io
+	rsync -av --exclude=.git --delete public/ ../cloudmesh-community.github.io
 	cd ../cloudmesh-community.github.io; git add .
 	cd ../cloudmesh-community.github.io; git commit -m $(MSG) .
 	cd ../cloudmesh-community.github.io; git push

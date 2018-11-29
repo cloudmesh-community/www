@@ -1,5 +1,5 @@
 +++
-title = "Paper: Analysis of Global Commodity Statistics using PySpark and Watson Analytics"
+title = "Project: Analysis of Global Commodity Statistics using PySpark and Watson Analytics"
 date = 2018-11-01
 authors = ["Harika Putti"]
 publication_types = ["6"]

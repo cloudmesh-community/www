@@ -1,5 +1,5 @@
 +++
-title = "Paper: Apache NiFi Chapter"
+title = "Project: Apache NiFi Chapter"
 date = 2018-11-01
 authors = ["Daniel Hinders"]
 publication_types = ["6"]

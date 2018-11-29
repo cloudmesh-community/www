@@ -1,5 +1,5 @@
 +++
-title = "Paper: Managing AWS Lambda Using REST API"
+title = "Project: Managing AWS Lambda Using REST API"
 date = 2018-11-01
 authors = ["Varun Joshi"]
 publication_types = ["6"]

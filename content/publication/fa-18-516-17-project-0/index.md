@@ -1,5 +1,5 @@
 +++
-title = "Paper: Scalable Data Processing for Retail"
+title = "Project: Scalable Data Processing for Retail"
 date = 2018-11-01
 authors = ["Brad Pope"]
 publication_types = ["6"]

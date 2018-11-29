@@ -1,5 +1,5 @@
 +++
-title = "Paper: Credit scoring algorithm and its implementation in production"
+title = "Project: Credit scoring algorithm and its implementation in production"
 date = 2018-11-01
 authors = ["Nhi Tran"]
 publication_types = ["6"]

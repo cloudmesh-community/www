@@ -1,5 +1,5 @@
 +++
-title = "Paper: Manage Files across multiple Cloud Providers"
+title = "Project: Manage Files across multiple Cloud Providers"
 date = 2018-11-01
 authors = ["Richa Rastogi"]
 publication_types = ["6"]

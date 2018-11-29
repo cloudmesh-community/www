@@ -1,5 +1,5 @@
 +++
-title = "Paper: Historical Storm Data Analysis with HBase"
+title = "Project: Historical Storm Data Analysis with HBase"
 date = 2018-11-01
 authors = ["Divya Rajendran"]
 publication_types = ["6"]

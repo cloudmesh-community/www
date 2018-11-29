@@ -1,5 +1,5 @@
 +++
-title = "Paper: Analytics in Consumer Behaviors in Black Friday with TensorFlow"
+title = "Project: Analytics in Consumer Behaviors in Black Friday with TensorFlow"
 date = 2018-11-01
 authors = ["Bo Li"]
 publication_types = ["6"]

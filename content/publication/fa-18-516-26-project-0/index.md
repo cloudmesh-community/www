@@ -1,5 +1,5 @@
 +++
-title = "Paper: Develope the remote parallel jobs tool with slurm support and experiment interface"
+title = "Project: Develope the remote parallel jobs tool with slurm support and experiment interface"
 date = 2018-11-01
 authors = ["Vafa Andalibi"]
 publication_types = ["6"]

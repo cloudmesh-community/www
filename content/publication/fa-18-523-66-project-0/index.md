@@ -1,5 +1,5 @@
 +++
-title = "Paper: Do I buy or sell? - Using Big Data to predict Stock Prices"
+title = "Project: Do I buy or sell? - Using Big Data to predict Stock Prices"
 date = 2018-11-01
 authors = ["Ritu Sanjay"]
 publication_types = ["6"]

@@ -1,5 +1,5 @@
 +++
-title = "Paper: Orchestrating Microservices for Credit Scoring Application using Kafka."
+title = "Project: Orchestrating Microservices for Credit Scoring Application using Kafka."
 date = 2018-11-01
 authors = ["Chaitanya Kakarala"]
 publication_types = ["6"]

@@ -1,5 +1,5 @@
 +++
-title = "Paper: TBD"
+title = "Project: TBD"
 date = 2018-11-01
 authors = ["De'Angelo Rutledge"]
 publication_types = ["6"]

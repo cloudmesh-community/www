@@ -18,9 +18,9 @@ weight = 3
 +++
 
 Cloudmesh has a large number of community contributors.  The community
-is managed in github.  They are mostly from classes taught at Indiana
-Univerity. The number is actually much larger as previous classes have
-not been integrated in github.
+is managed in github.  This includes a large number of projects that
+have been conducted at Indiana University . The number is actually
+much larger as previous projects are not integrated in our public github.
 
 The list of currently managed projects in github can be found at
 

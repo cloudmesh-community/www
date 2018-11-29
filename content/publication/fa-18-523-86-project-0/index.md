@@ -1,5 +1,5 @@
 +++
-title = "Paper: Big data in SAP Ariba"
+title = "Project: Big data in SAP Ariba"
 date = 2018-11-01
 authors = ["Jeff Liu"]
 publication_types = ["6"]

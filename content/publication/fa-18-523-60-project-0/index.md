@@ -1,5 +1,5 @@
 +++
-title = "Paper: Kickstarter Projects Analysis"
+title = "Project: Kickstarter Projects Analysis"
 date = 2018-11-01
 authors = ["Izolda Fetko", "Nishad Tupe", "Vishal Bhoyar"]
 publication_types = ["6"]

@@ -1,5 +1,5 @@
 +++
-title = "Paper: Explore OpenFaaS Development and Deployment Aspects"
+title = "Project: Explore OpenFaaS Development and Deployment Aspects"
 date = 2018-11-01
 authors = ["Murali Cheruvu", "Anand Sriramulu"]
 publication_types = ["6"]

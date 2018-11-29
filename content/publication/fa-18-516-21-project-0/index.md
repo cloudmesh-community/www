@@ -1,5 +1,5 @@
 +++
-title = "Paper: Cloudmesh Graphql App"
+title = "Project: Cloudmesh Graphql App"
 date = 2018-11-01
 authors = ["Mihir Shanishchara", "Vineet Barshikar"]
 publication_types = ["6"]
