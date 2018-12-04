@@ -8,7 +8,7 @@ draft = true
 tags = ["Software", "scientific impact", "metrics", "data analysis"]
 
 # Project summary to display on homepage.
-summary = "Scientific Impact"
+summary = "Scientific Impact analysis of publications for XSEDE."
 
 # Slides (optional).
 #   Associate this page with Markdown slides.

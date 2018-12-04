@@ -1,14 +1,14 @@
 +++
 title = "Virtual Cluster on Comet"
 date = 2018-11-26T14:40:03-05:00
-draft = true
+draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["Software", "virtual cluster", "cloud", "HPC"]
 
 # Project summary to display on homepage.
-summary = "Comet VC"
+summary = "A command line interface to the use of comets virtual cluster interface."
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
@@ -23,7 +23,7 @@ external_link = ""
 
 # Links (optional).
 url_pdf = ""
-url_code = ""
+url_code = "https://github.com/cloudmesh/cloudmesh.comet"
 url_dataset = ""
 url_project = ""
 url_slides = ""
@@ -38,11 +38,11 @@ url_poster = ""
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = "Image caption"
+  caption = "The cloudmesh commandline tool to interface with the Comet Virtual cluster rest interface."
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
+  focal_point = "Left"
 +++
 
 Virtual cluster on Comet is a project to provide a virtual cluster to
@@ -74,3 +74,4 @@ guidance of dbGaP data [2].
    Proceedings of the XSEDE16 Conference on Diversity, Big Data, and
    Science at Scale (XSEDE16). ACM, New York, NY, USA
 2.  https://osp.od.nih.gov/scientific-sharing/genomic-data-sharing/
+3. https://github.com/cloudmesh/cloudmesh.comet

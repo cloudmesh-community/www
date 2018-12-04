@@ -28,7 +28,7 @@ Big Data
 
 #### Use Cases in Big Data Software and Analytics, Series Vol. 1 [ {{< button PDF >}} ](http://cyberaide.org/papers/vonLaszewski-i523-v1.pdf) 
 
-> * Version: Fall2017
+> * Version: Fall 2017
 > * Editors: Gregor von Laszewski
 > * Classes: e534, I523, I423
 
@@ -44,7 +44,7 @@ Big Data
 
 #### Use Cases in Big Data Software and Analytics, Series Vol. 2 [ {{< button PDF >}} ](http://cyberaide.org/papers/vonLaszewski-i523-v2.pdf)
 
-> * Version: Fall2017
+> * Version: Fall 2017
 > * Editors: Gregor von Laszewski
 > * Classes: e534, I523, I423
 
@@ -65,7 +65,7 @@ Big Data
 
 #### Big Data Software,  Series Vol. 3 [ {{< button PDF >}} ](https://github.com/cloudmesh/sp17-i524/raw/master/paper1/proceedings.pdf)
 
-> * Version: Spring2017
+> * Version: Spring 2017
 > * Editors: Gregor von Laszewski
 > * Classes: e516
 > * Description: This document contains contributed 2 summary page
@@ -88,7 +88,7 @@ Big Data
 
 #### Big Data Software,  Series Vol. 4 [ {{< button PDF >}} ](https://github.com/cloudmesh/sp17-i524/raw/master/paper2/proceedings.pdf) 
 
-> * Version: Spring2017
+> * Version: Spring 2017
 > * Editors: Gregor von Laszewski
 > * Classes: e516
 > * Description: This document contains contributed 2 summary page
@@ -112,7 +112,7 @@ Big Data
 #### Cloud and Big Data Technologies,  Series Vol. 8 [ {{< button PDF >}} ](http://cyberaide.org/papers/vonLaszewski-cloud-vol-8.pdf) 
 
 
-> * Version: Spring2018
+> * Version: Spring 2018
 > * Editors: Gregor von Laszewski
 > * Classes: e516
 > * Description: This document contains contributed 2 summary page
@@ -131,6 +131,26 @@ Big Data
 >   Stream Processing , SETI@Home, Security Mechanisms in Cloud
 >   Computing, Stardog, Synthetic Data Vault, TensorFlow, Twilio,
 >   XGBoost
+> * Comment: There may be some incomplete contributions in the proceedings,
+>   please ignore them.
+
+#### Draft: Cloud and Big Data Technologies,  Series Vol. 10 [ {{< button ePub >}} ](https://github.com/cloudmesh-community/proceedings-fa18/raw/master/vonLaszewski-proceedings-fa18-papers.epub) [ {{< button PDF >}} ](https://github.com/cloudmesh-community/proceedings-fa18/raw/master/vonLaszewski-proceedings-fa18-papers.pdf) 
+
+> * Version: Fall 2018 (alpha)
+> * Editors: Gregor von Laszewski
+> * Classes: e516, i523
+> * Description: This is an early draft
+
+> * Comment: There may be some incomplete contributions in the proceedings,
+>   please ignore them.
+
+#### Draft: Cloud and Big Data Usecases,  Series Vol. 11 [ {{< button ePub >}} ](https://github.com/cloudmesh-community/proceedings-fa18/raw/master/vonLaszewski-proceedings-fa18-projects.epub) [ {{< button PDF >}} ](https://github.com/cloudmesh-community/proceedings-fa18/raw/master/vonLaszewski-proceedings-fa18-projects.pdf) 
+
+> * Version: Spring 2018 (alpha)
+> * Editors: Gregor von Laszewski
+> * Classes: e516, i523
+> * Description: This is an early draft
+
 > * Comment: There may be some incomplete contributions in the proceedings,
 >   please ignore them.
 
