@@ -20,6 +20,30 @@ defining content and project for them as well as coordinating the
 TA's.  This includes e222, e516, i523, i524.
 
 
+# Quotes about Classes Gregor von Laszewski taught
+
+> "This is the best class I have taken ..."
+
+or
+
+> "I really enjoyed taking this class and having maximum flexibility to
+> schedule the lectures. ..."
+
+or
+
+> "The lessons learned from this class were adopted within my company. ..."
+
+or
+
+> "I wanted to sincerely thank you for all the guidance you provided 
+> in this course. My learning in cloud computing has enhanced a 
+> lot because of this course and also because of your continuous guidance. ... "
+
+or 
+
+> "Thanks to the material you thauhgt I got a job at Intel. ..."
+
+
 ## Ongoing Classes
 
 Class                                   | ID        | Semester     | Proceedings | Piazza
@@ -55,5 +79,4 @@ TBD | i524  | Spring 2017 | Proceedings | [link](https://piazza.com/class/ix39m2
 TBD | i423 | Fall 2016 | Proceedings | [link](https://piazza.com/class/irqfvh1ctrg2vt)
 TBD | i523  | Fall 2016 | Proceedings | [link](https://piazza.com/class/irqfvh1ctrg2vt)
 TBD | e599  | Fall 2016 | Proceedings | [link](https://piazza.com/class/irqfvh1ctrg2vt)
-
 
